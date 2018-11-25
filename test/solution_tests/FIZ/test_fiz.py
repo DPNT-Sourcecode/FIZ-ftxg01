@@ -7,7 +7,7 @@ class TestFiz(unittest.TestCase):
         self.assertEqual(fizz_buzz_solution.fizz_buzz(1), "1")
         self.assertEqual(fizz_buzz_solution.fizz_buzz(3), "fizz")
         self.assertEqual(fizz_buzz_solution.fizz_buzz(5), "buzz")
-        self.assertEqual(fizz_buzz_solution.fizz_buzz(15), "fizzbuzz")
-        
+        self.assertEqual(fizz_buzz_solution.fizz_buzz(15), "fizz buzz")
+
     if __name__ == '__main__':
         unittest.main()
