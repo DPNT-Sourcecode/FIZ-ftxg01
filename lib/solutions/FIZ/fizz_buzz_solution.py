@@ -26,7 +26,7 @@ def fizz_buzz(number):
     return str(number)
 
 def deluxe(number):
-    if (number % 3 == 0 or '3' in str(number)) or (number % 5 == 0 or '5' in str(number)):
+    if (number % 3 == 0 and '3' in str(number)) or (number % 5 == 0 and '5' in str(number)):
         if number % 2 == 0:
             return "deluxe"
         return "fake deluxe"
