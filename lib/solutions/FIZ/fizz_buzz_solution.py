@@ -29,4 +29,4 @@ def deluxe(number):
     if number > 10 and (str(number) == len(str(number)) * str(number)[0]):
         if number % 2 == 0:
             return "deluxe"
-        return "not deluxe"
+        return "fake deluxe"
